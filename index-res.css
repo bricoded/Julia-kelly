@@ -160,37 +160,6 @@
     line-height: 1.4em;
   }
 
-  /* Nav section */
-  nav .container {
-    max-width: 100%;
-    padding: 20px 24px;
-  }
-
-  nav img {
-    max-width: 200px;
-  }
-
-  nav .followMe {
-    display: none;
-  }
-
-  .hamburger {
-    padding: 15px 12px;
-  }
-
-  nav ul{
-    padding-top: 110px;
-  }
-
-  nav ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-  }
-
-  nav ul li a {
-    font-size: 29px;
-  }
 
   /*Hero section  */
   .hero.container {
@@ -367,34 +336,6 @@
 
   h2 {
     font-size: 25px;
-  }
-
-  /* Nav section */
-  nav .container {
-    padding: 18px 16px;
-  }
-
-  nav img {
-    max-width: 150px;
-  }
-
-  .hamburger {
-    font-size: 26px;
-  }
-
-  nav ul{
-    padding-top: 98px;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-
-  nav ul li {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-
-  nav ul li a {
-    font-size: 24px;
   }
 
   /* Hero section */
