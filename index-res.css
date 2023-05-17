@@ -601,6 +601,10 @@
     padding-bottom: 40px;
   }
 
+  #articles .link a {
+    box-shadow: rgba(251, 15, 90, 0.25) 0px 10px 20px 0px;
+  }
+
   /* INSTAGRAM */
 
   section.instagram {
@@ -938,6 +942,15 @@
   .blog-card-content {
     padding-top: 20px;
     padding-bottom: 30px;
+  }
+
+  #articles .link a {
+    display: block;
+    align-self: stretch;
+    box-shadow: rgba(251, 15, 90, 0.25) 0px 8px 13px 0px;
+    font-size: 16px;
+    padding: 22px 26px;
+    width: 100%;
   }
 
   /* INSTAGRAM */
