@@ -4,7 +4,7 @@
     font-size: 33px;
   }
 
-  /* Hero section */
+  /* HERO SECTION */
   .hero.container {
     flex-direction: column;
     padding-top: 60px;
@@ -110,7 +110,7 @@
     font-size: 37px;
   }
 
-  /* About starts */
+  /* ABOUT ME */
   section#about {
     padding: 100px 0;
   }
@@ -129,7 +129,36 @@
     margin-bottom: 40px;
   }
 
-  /* Follow starts */
+  /* CONFERENCES AND EVENTS */
+  #events {
+    padding: 100px 0;
+  }
+
+  #events .container {
+    flex-direction: column;
+  }
+
+  #events .textarea {
+    max-width: 518px;
+    margin-bottom: 120px;
+  }
+
+  #events .right {
+    max-width: 518px;
+    margin-right: 0px;
+  }
+
+  .bg.conferences-events {
+    top: 86px;
+    right: auto;
+    width: 0;
+  }
+
+  .bg.conferences-events.show {
+    width: 100%;
+  }
+
+  /* FOLLOW STARTS */
   section.follow {
     padding: 100px 0;
   }
@@ -155,7 +184,7 @@
     width: 100%;
   }
 
-  /* Instagram starts */
+  /* INSTAGRAM */
   section.instagram {
     padding-top: 100px;
   }
@@ -169,7 +198,7 @@
     margin-top: 60px;
   }
 
-  /* Footer */
+  /* FOOTER */
   footer h3 {
     margin-bottom: 20px;
   }
@@ -187,7 +216,7 @@
   }
 
 
-  /*Hero section  */
+  /* HERO SECTION */
   .hero.container {
     padding-top: 40px;
     padding-bottom: 100px;
@@ -285,11 +314,13 @@
     right: -66px;
     max-width: 30%;
   }
+
   section.journey .shape.two {
     left: -62px;
     bottom: 249.5px;
     max-width: 30%;
   }
+
   section.journey .shape.three {
     right: -20px;
     max-width: 25%;
@@ -320,7 +351,7 @@
     font-size: 18px;
   }
 
-  /* About me */
+  /* ABOUT ME */
 
   section#about {
     padding: 80px 0;
@@ -339,20 +370,24 @@
     right: 14px;
     max-width: 30%;
   }
+
   .pics .shape.two2 {
     top: 82px;
     right: 16px;
     max-width: 30%;
   }
+
   .pics .shape.three3 {
     right: -30px;
     bottom: -38.5px;
     max-width: 30%;
   }
+
   .pics .shape.four4 {
     left: -44px;
     max-width: 40%;
   }
+
   .pics .shape.five5 {
     left: -43px;
     bottom: -10px;
@@ -374,7 +409,56 @@
     max-width: 100%;
   }
 
-  /* Follow starts */
+  /* CONFERENCES AND EVENTS */
+  #events {
+    padding: 80px 0;
+  }
+
+  #events .textarea {
+    margin-bottom: 80px;
+  }
+
+  #events a {
+    box-shadow: 0 10px 20px 0 rgba(251, 15, 90, 0.25);
+  }
+
+  #events .img-wrapper {
+    border-radius: 34px 34px 120px;
+  }
+
+  #events .shape.one {
+    top: -76px;
+    max-width: 30%;
+  }
+
+  #events .shape.two {
+    max-width: 30%;
+  }
+
+  #events .shape.three {
+    max-width: 30%;
+  }
+
+  #events .shape.four {
+    max-width: 30%;
+  }
+
+  #events .shape.five {
+    top: -60px;
+    right: -63px;
+    max-width: 50%;
+  }
+
+  .bg.conferences-events {
+    top: 77px;
+    width: 0px;
+  }
+
+  .bg.conferences-events.show {
+    width: 110%;
+  }
+
+  /* FOLLOW STARTS */
   section.follow {
     padding: 80px 0;
   }
@@ -393,7 +477,7 @@
     border-radius: 18px;
   }
 
-  /* Instagram starts */
+  /* INSTAGRAM */
 
   section.instagram {
     padding-top: 80px;
@@ -436,7 +520,7 @@
     font-size: 25px;
   }
 
-  /* Hero section */
+  /* HERO SECTION */
   .hero.container {
     padding-top: 30px;
     padding-bottom: 80px;
@@ -535,9 +619,11 @@
   section.journey .shape.one {
     top: 299px;
   }
+
   section.journey .shape.two {
     bottom: 242.5px;
   }
+
   section.journey .shape.three {
     bottom: -23px;
   }
@@ -557,7 +643,7 @@
     margin-bottom: 10px;
   }
 
-  /* About Me */
+  /* ABOUT ME */
   section#about {
     padding: 60px 0;
   }
@@ -581,15 +667,18 @@
     right: -2px;
     max-width: 30%;
   }
+
   .pics .shape.three3 {
     right: 4px;
     bottom: -25.5px;
     max-width: 30%;
   }
+
   .pics .shape.four4 {
     left: -35px;
     max-width: 30%;
   }
+
   .pics .shape.five5 {
     left: -15px;
     bottom: 73px;
@@ -605,7 +694,67 @@
     border-radius: 24px 24px 80px;
   }
 
-  /* Follow starts */
+  /* CONFERENCES AND EVENTS */
+  #events {
+    padding: 60px 0;
+  }
+
+  #events .textarea {
+    margin-bottom: 60px;
+  }
+
+  #events a {
+    display: block;
+    padding: 22px 26px;
+    align-self: stretch;
+    box-shadow: 0 8px 13px 0 rgba(251, 15, 90, 0.25);
+    font-size: 16px;
+    ;
+  }
+
+  #events .img-wrapper {
+    border-radius: 24px 24px 100px;
+  }
+
+  #events .shape.one {
+    left: -27px;
+    top: -40px;
+    max-width: 30%;
+  }
+
+  #events .shape.two {
+    left: -53px;
+    max-width: 30%;
+  }
+
+  #events .shape.three {
+    right: -15px;
+    bottom: -6px;
+    max-width: 30%;
+  }
+
+  #events .shape.four {
+    right: -51px;
+    max-width: 30%;
+  }
+
+  #events .shape.five {
+    top: -25px;
+    right: -27px;
+    max-width: 30%;
+  }
+
+  .bg.conferences-events {
+    top: 64px;
+    width: 0;
+  }
+
+  .bg.conferences-events.show {
+    width: 115%;
+  }
+
+
+  /* FOLLOW STARTS */
   section.follow {
     padding: 60px 0;
   }
@@ -625,7 +774,7 @@
     border-radius: 15px;
   }
 
-  /* Instagram starts */
+  /* INSTAGRAM */
   section.instagram {
     padding-top: 60px;
   }
@@ -651,7 +800,7 @@
     margin-top: 40px;
   }
 
-  /* footer */
+  /* FOOTER */
   footer {
     padding-top: 40px;
     padding-bottom: 20px;

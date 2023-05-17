@@ -132,6 +132,7 @@ img.tiktok:hover {
   justify-content: space-between;
   padding-top: 152px;
   padding-bottom: 200px;
+  overflow: hidden;
 }
 
 .hero.container .text {
@@ -347,6 +348,8 @@ section.follows {
 /* MY JOURNEY STARTS */
 section.journey {
   padding: 180px 0 160px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 section.journey .container {
@@ -587,6 +590,119 @@ section#about {
 
 #about .right a:hover {
   transform: scale(.95);
+}
+
+/* CONFERENCES AND EVENTS */
+#events {
+  overflow: hidden;
+  padding: 221px 0 160px;
+}
+
+#events .container {
+  position: relative;
+  display: flex;
+  min-height: 527.515625px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#events .textarea {
+  max-width: 43%;
+  transition-delay: .5s;
+}
+
+#events h2 {
+  margin-bottom: 12px;
+}
+
+#events p {
+  margin-bottom: 40px;
+}
+
+#events a {
+  padding: 26px 44px;
+  border-radius: 46px;
+  background-color: #fb0f5a;
+  box-shadow: 0 16px 34px 0 rgba(251, 15, 90, 0.25);
+  transition: transform 350ms ease, box-shadow 350ms ease, -webkit-transform 350ms ease;
+  color: #fff;
+  line-height: 1em;
+  font-weight: 800;
+  text-align: center;
+}
+
+#events .right {
+  position: relative;
+  display: flex;
+  max-width: 44%;
+  margin-right: 73px;
+  justify-content: center;
+  align-items: center;
+}
+
+#events .img-wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  border-radius: 50px 50px 150px;
+}
+
+.events-img {
+  transform: scale(1.4);
+  transition-delay: .3s;
+}
+
+.events-img.show {
+  transform: scale(1);
+}
+
+#events .shape.one {
+  left: -39px;
+  top: -123px;
+  z-index: 2;
+  flex: 0 0 auto;
+  transition-delay: .3s;
+}
+#events .shape.two {
+  left: -83px;
+  bottom: 0px;
+  flex: 0 0 auto;
+  transition-delay: .7s;
+}
+#events .shape.three {
+  right: -25px;
+  bottom: -30px;
+  z-index: 2;
+  transition-delay: .9s;
+}
+#events .shape.four {
+  right: -74px;
+  flex: 0 0 auto;
+  transition-delay: .5s;
+}
+#events .shape.five {
+  top: -80px;
+  right: -82px;
+  flex: 0 0 auto;
+}
+
+.bg.conferences-events {
+  position: absolute;
+  z-index: -1;
+  border-radius: 70px;
+  background-color: #fb0f5a;
+  opacity: 0.03;
+  transition: width 1500ms ease;
+  right: 0px;
+  width: 0;
+  max-height: 462px;
+  height: 462px;
+}
+
+.bg.conferences-events.show {
+  width: 91%;
 }
 
 /* FOLLOW STARTS */
