@@ -110,6 +110,52 @@
     font-size: 37px;
   }
 
+  /* MY LATEST VIDEOS */
+  section#videos {
+    padding: 100px 0;
+  }
+  .top-content {
+    flex-direction: column;
+  }
+
+  .videos-grid {
+    grid-template-columns: 1.4fr;
+    grid-row-gap: 60px;
+  }
+
+  .vid-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .vid-paragraph {
+    margin-bottom: 20px;
+  }
+
+  .popular-vid.show {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 30px;
+  }
+
+  .popular-vid .popular-sidebar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #videos .image-wrapper {
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .vid-img {
+    width: 100%;
+  }
+
+  h3.sidebar-title {
+    max-width: 100%;
+  }
+
   /* ABOUT ME */
   section#about {
     padding: 100px 0;
@@ -212,6 +258,11 @@
 
   h2 {
     font-size: 28px;
+    line-height: 1.4em;
+  }
+
+  h3 {
+    font-size: 22px;
     line-height: 1.4em;
   }
 
@@ -349,6 +400,48 @@
 
   a.card h5 {
     font-size: 18px;
+  }
+
+  /* MY LATEST VIDEOS */
+  section#videos {
+    padding: 80px 0;
+  }
+  .top-content p {
+    max-width: 527px;
+    margin-top: 10px;
+  }
+
+  .content-holder a {
+    margin-bottom: 10px;
+  }
+
+  #videos .image-wrapper {
+    border-radius: 18px;
+  }
+
+  h3.sidebar-title {
+    line-height: 1.5em;
+  }
+
+  .play-btn.side {
+    width: 35%;
+    height: 40%;
+  }
+
+  #videos .links > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  #videos .subscribe {
+    margin-right: 0;
+    box-shadow: rgba(251, 15, 90, 0.25) 0px 10px 20px 0px;
+  }
+
+  #videos .view {
+    box-shadow: rgba(251, 15, 90, 0.1) 0px 3px 15px 0px;
   }
 
   /* ABOUT ME */
@@ -641,6 +734,32 @@
 
   a.card h5 {
     margin-bottom: 10px;
+  }
+
+  /* MY LATEST VIDEOS */
+  section#videos {
+    padding: 60px 0;
+  }
+
+  .vid-wrapper {
+    margin-bottom: 18px;
+  }
+
+  .videos-grid {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    grid-row-gap: 40px;
+  }
+
+  .popular-vid.show {
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+
+  .play-btn.side {
+    width: 100px;
+    height: 70px;
+    font-size: 30px;
   }
 
   /* ABOUT ME */

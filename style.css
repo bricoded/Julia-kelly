@@ -40,6 +40,17 @@ h2 {
   letter-spacing: -0.03em;
 }
 
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #0b091b;
+  font-size: 26px;
+  line-height: 1.308em;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  transition: color 350ms ease;
+}
+
 a {
   line-height: 1.222em;
   font-weight: 500;
@@ -184,16 +195,19 @@ img.tiktok:hover {
   flex: 0 0 auto;
   transition-delay: 1.3s;
 }
+
 .hero.container .shape.three {
   right: -89px;
   flex: 0 0 auto;
   transition-delay: 1.1s;
 }
+
 .hero.container .shape.four {
   left: -65px;
   flex: 0 0 auto;
   transition-delay: .9s;
 }
+
 .hero.container .shape.five {
   top: -27px;
   right: -54px;
@@ -201,6 +215,7 @@ img.tiktok:hover {
   flex: 0 0 auto;
   transition-delay: .7s;
 }
+
 .hero.container .shape.six {
   left: -53px;
   top: -94px;
@@ -367,12 +382,14 @@ section.journey .shape.one {
   flex: 0 0 auto;
   transition-delay: 1.3s;
 }
+
 section.journey .shape.two {
   left: -211px;
   bottom: 217.5px;
   flex: 0 0 auto;
   transition-delay: 1.7s;
 }
+
 section.journey .shape.three {
   right: -78px;
   bottom: -43px;
@@ -458,7 +475,230 @@ a.card small {
   font-size: 18px;
 }
 
-/* About Me */
+/* MY LATEST VIDEOS */
+section#videos {
+  padding: 160px 0;
+  background-color: #f9f9fd;
+}
+
+#videos h3:hover {
+  color: #fb0f5a;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-content h2 {
+  transform: scale(.7);
+}
+
+.top-content h2.show {
+  transform: scale(1);
+}
+
+.top-content p {
+  max-width: 527px;
+  transform: scale(.7);
+  transition-duration: 700ms;
+}
+
+.top-content p.show {
+  transform: scale(1);
+}
+
+.content-holder {
+  transform: scale(.8);
+  transition-delay: .3s;
+}
+
+.content-holder.show {
+  transform: scale(1);
+}
+
+.content-holder a {
+  transition: color 350ms ease, transform 300ms ease;
+  font-weight: 800;
+  color: #fb0f5a;
+  line-height: 1.222em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.play-btn {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  width: 144px;
+  height: 102px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  background-color: #fff;
+  box-shadow: 0 28px 65px 0 rgba(11, 9, 27, 0.14);
+  font-size: 45px;
+  text-shadow: 0 6px 13px rgba(251, 15, 90, 0.28);
+  color: #fb0f5a;
+  transition: .3s ease;
+}
+
+.vid-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  overflow: hidden;
+  transform: translate(0px, 0px);
+}
+
+.videos-grid {
+  display: grid;
+  margin-top: 38px;
+  margin-bottom: 48px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1.4fr 1fr;
+  grid-template-rows: auto;
+}
+
+.vid-img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.vid-img img {
+  width: 100%;
+  object-fit: cover;
+  transition: .3s ease;
+}
+
+.vid-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.vid-wrapper:hover a.play-btn {
+  transform: scale(.9);
+}
+
+.vid-title {
+  max-width: 100%;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.vid-paragraph {
+  margin-bottom: 26px;
+}
+
+.popular-vid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-row-gap: 24px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  transform: scale(.8);
+  transition-delay: .6s;
+}
+
+.popular-vid.show {
+  transform: scale(1);
+}
+
+.popular-vid .popular-sidebar {
+  display: flex;
+  align-items: center;
+}
+
+#videos .image-wrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  max-width: 244px;
+  margin-right: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  transform: translate(0px, 0px);
+}
+
+#videos .image-wrapper:hover img {
+  transform: scale(1.2);
+}
+
+#videos .image-wrapper:hover .play-btn.side {
+  transform: translate(-50%, -50%) scale(.9);
+}
+
+.play-btn.side {
+  width: 66px;
+  height: 47px;
+  border-radius: 12px;
+  font-size: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+a.sidebar-link {
+  max-width: 100%;
+  display: inline-block;
+  transition: color 350ms ease;
+  color: #fb0f5a;
+  line-height: 1.222em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+h3.sidebar-title {
+  max-width: 215px;
+  transition: color 350ms ease;
+  font-size: 18px;
+  line-height: 1.333em;
+  letter-spacing: -0.02em;
+}
+
+#videos .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#videos .subscribe {
+  padding: 26px 44px;
+  border-radius: 46px;
+  background-color: #fb0f5a;
+  box-shadow: 0 16px 34px 0 rgba(251, 15, 90, 0.25);
+  transition: transform 350ms ease, box-shadow 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease;
+  color: #fff;
+  line-height: 1em;
+  font-weight: 800;
+  text-align: center;
+  margin-right: 27px;
+  transition-delay: .5s;
+}
+
+#videos .view {
+  padding: 26px 44px;
+  border-radius: 164px;
+  background-color: #fff;
+  box-shadow: 0 4px 24px 0 rgba(251, 15, 90, 0.1);
+  transition: transform 350ms ease, color 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease;
+  color: #fb0f5a;
+  line-height: 1em;
+  font-weight: 600;
+  text-align: center;
+  transition-delay: .7s;
+}
+
+/* ABOUT ME */
 section#about {
   padding: 160px 0;
 }
@@ -488,6 +728,7 @@ section#about {
   flex: 0 0 auto;
   transition-delay: .3s;
 }
+
 .pics .shape.two2 {
   top: 191px;
   right: -20px;
@@ -495,18 +736,21 @@ section#about {
   flex: 0 0 auto;
   transition-delay: .5s;
 }
+
 .pics .shape.three3 {
   right: -64px;
   bottom: -51.5px;
   flex: 0 0 auto;
   transition-delay: .9s;
 }
+
 .pics .shape.four4 {
   left: -104px;
   top: 51.5px;
   flex: 0 0 auto;
   transition-delay: .7s;
 }
+
 .pics .shape.five5 {
   left: -80px;
   bottom: 61px;
@@ -665,23 +909,27 @@ section#about {
   flex: 0 0 auto;
   transition-delay: .3s;
 }
+
 #events .shape.two {
   left: -83px;
   bottom: 0px;
   flex: 0 0 auto;
   transition-delay: .7s;
 }
+
 #events .shape.three {
   right: -25px;
   bottom: -30px;
   z-index: 2;
   transition-delay: .9s;
 }
+
 #events .shape.four {
   right: -74px;
   flex: 0 0 auto;
   transition-delay: .5s;
 }
+
 #events .shape.five {
   top: -80px;
   right: -82px;
