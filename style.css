@@ -58,6 +58,15 @@ a {
   text-decoration: none;
 }
 
+.brand {
+  position: relative;
+  transition: .3s ease;
+}
+
+.brand:hover {
+  transform: scale(.9);
+}
+
 .followMe {
   padding: 18px 25px;
   font-size: 16px;
@@ -689,26 +698,37 @@ h3.sidebar-title {
   border-radius: 46px;
   background-color: #fb0f5a;
   box-shadow: 0 16px 34px 0 rgba(251, 15, 90, 0.25);
-  transition: transform 350ms ease, box-shadow 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease;
+  transition: transform 350ms ease, box-shadow 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease .5s;
   color: #fff;
   line-height: 1em;
   font-weight: 800;
   text-align: center;
   margin-right: 27px;
-  transition-delay: .5s;
+}
+
+#videos a.subscribe:hover {
+  box-shadow: rgba(251, 15, 90, 0.25) 0px 8px 20px 0px;
+  transform: scale(0.95);
+  color: rgb(255, 255, 255);
 }
 
 #videos .view {
+  display: inline-block;
   padding: 26px 44px;
   border-radius: 164px;
   background-color: #fff;
   box-shadow: 0 4px 24px 0 rgba(251, 15, 90, 0.1);
-  transition: transform 350ms ease, color 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease;
+  transition: transform 350ms ease, color 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease, opacity 1000ms ease .7s;
   color: #fb0f5a;
   line-height: 1em;
   font-weight: 600;
   text-align: center;
-  transition-delay: .7s;
+}
+
+#videos .view:hover {
+  background-color: rgb(251, 15, 90);
+  transform: scale(0.95);
+  color: rgb(255, 255, 255);
 }
 
 /* ABOUT ME */
@@ -888,6 +908,10 @@ section#about {
   text-align: center;
 }
 
+#events a:hover {
+  transform: scale(0.95);
+}
+
 #events .right {
   position: relative;
   display: flex;
@@ -1057,12 +1081,12 @@ section.follow .social-links a:nth-child(6) img.show {
 .posts {
   color: rgb(71, 68, 89);
   overflow: hidden;
-  transition: box-shadow 350ms ease 0s, transform 350ms ease 0s, -webkit-transform 350ms ease 0s, opacity 1000ms ease;
+  transition: box-shadow 350ms ease 0s, transform 1000ms ease .3s, -webkit-transform 350ms ease 0s, opacity 1000ms ease;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(251, 15, 90, 0.03) 0px 0px 8px -4px, rgba(251, 15, 90, 0.06) 0px 14px 34px 0px, rgba(11, 9, 27, 0.02) 0px 24px 44px 0px;
   border-radius: 28px 28px 60px;
   cursor: pointer;
-  transform: scale(.7.5);
+  transform: scale(.75);
 }
 
 .posts.show {
@@ -1196,6 +1220,7 @@ section.instagram div.images a {
 section.instagram div.images img {
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+  transition: transform .3s ease 0s;
   width: 100%;
   vertical-align: middle;
   overflow: hidden;
@@ -1203,6 +1228,10 @@ section.instagram div.images img {
 
 section.instagram div.images div.wrap img.show {
   transform: scale(1);
+}
+
+section.instagram div.images div.wrap img.show:hover {
+  transform: scale(1.2);
 }
 
 section.instagram div.wrap:nth-child(1) img {
