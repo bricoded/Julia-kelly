@@ -5,13 +5,11 @@ hamburger.addEventListener('click', function () {
   hamburger.classList.toggle('open');
   menu.classList.toggle('show');
   icon.classList.toggle('show');
-  console.log(icon.classList)
 })
 
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add('show');
     }
