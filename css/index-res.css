@@ -4,6 +4,10 @@
     font-size: 33px;
   }
 
+  .cta {
+    font-size: .9rem;
+  }
+
   /* HERO SECTION */
   .hero.container {
     flex-direction: column;
@@ -176,6 +180,26 @@
     margin-bottom: 40px;
   }
 
+  /* MY PRODUCTS */
+  #products {
+    padding: 60px 0;
+  }
+  #products .grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #products .item {
+    width: 48%;
+    gap: 10px;
+  }
+
+  #products .item:hover {
+    transform: translate(15px);
+  }
+
   /* CONFERENCES AND EVENTS */
   #events {
     padding: 100px 0;
@@ -259,15 +283,6 @@
 
   section.instagram div.images {
     margin-top: 60px;
-  }
-
-  /* FOOTER */
-  footer h3 {
-    margin-bottom: 20px;
-  }
-
-  .icons {
-    grid-row-gap: 24px;
   }
 }
 
@@ -520,6 +535,14 @@
     max-width: 100%;
   }
 
+  /* MY PRODUCTS */
+  #products {
+    padding: 60px 0;
+  }
+  #products .item {
+    width: 100%;
+  }
+
   /* CONFERENCES AND EVENTS */
   #events {
     padding: 80px 0;
@@ -617,25 +640,6 @@
 
   section.instagram div.images {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .footer-top {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-top a:first-child {
-    display: block;
-    margin-bottom: 40px;
-  }
-
-  .footer-top .right a {
-    margin-bottom: 0;
-    display: inline;
-  }
-
-  .icons {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -797,6 +801,15 @@
     font-size: 30px;
   }
 
+  #videos .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #videos .links a {
+    width: 100%;
+  }
+
   /* ABOUT ME */
   section#about {
     padding: 60px 0;
@@ -848,6 +861,23 @@
     border-radius: 24px 24px 80px;
   }
 
+  /* MY PRODUCTS */
+  #products .item {
+    width: 98%;
+    margin: auto;
+  }
+
+  #products .item:hover {
+    transform: translateY(10px);
+  }
+
+  #products h4 {
+    font-size: 1rem;
+  }
+
+  #products .item small {
+    font-size: 1rem;
+  }
   /* CONFERENCES AND EVENTS */
   #events {
     padding: 60px 0;
@@ -966,47 +996,11 @@
     margin-bottom: 30px;
   }
 
-  section.instagram .followMe {
+  section.instagram .cta {
     display: block;
-    padding: 22px 26px;
-    box-shadow: 0 8px 13px 0 rgba(251, 15, 90, 0.25);
-    font-size: 16px;
-    justify-content: center;
-    margin-right: 0;
   }
 
   section.instagram div.images {
     margin-top: 40px;
-  }
-
-  /* FOOTER */
-  footer {
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
-
-  .footer-top a:first-of-type {
-    margin-bottom: 30px;
-  }
-
-  .footer-top .right a {
-    margin-bottom: 0;
-    display: inline;
-    width: 40px;
-    height: 40px;
-  }
-
-  footer h3 {
-    margin-bottom: 10px;
-  }
-
-  .icons {
-    grid-column-gap: 3vw;
-  }
-
-  .icons img {
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 12px;
   }
 }
