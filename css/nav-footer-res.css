@@ -159,6 +159,11 @@ img.tiktok:hover {
   font-size: 18px;
   background-color: #fff;
   display: inline-block;
+  cursor: pointer;
+}
+
+.cta:hover {
+  transform: scale(.9);
 }
 
 .cta.primary {
@@ -239,6 +244,20 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  color: #fb0f5a;
+}
+
+nav .ctn {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav .ctn a {
+  color: #0b091b;
+}
+
+nav .ctn a:hover {
   color: #fb0f5a;
 }
 
