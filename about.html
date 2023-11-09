@@ -27,8 +27,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 
   <!-- LOCAL CSS -->
-  <link rel="stylesheet" href="./css/about.css" />
   <link rel="stylesheet" href="./css/nav-footer-res.css" />
+  <link rel="stylesheet" href="./css/about.css" />
 
   <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
@@ -75,9 +75,11 @@
     <!-- HEADER -->
     <section class="header">
       <div class="container">
-        <h1>I’m <span>Sophie</span>. I am <span>26</span> and love making videos<span>.</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit rutrum ut cras natoque proin nunc, lobortis
-          massa. Amet sed pharetra semper bibendum nisl. Feugiat molestie egestas.</p>
+        <div class="hidden text">
+          <h1>I’m <span>Sophie</span>. I am <span>26</span> and love making videos<span>.</span></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit rutrum ut cras natoque proin nunc, lobortis
+            massa. Amet sed pharetra semper bibendum nisl. Feugiat molestie egestas.</p>
+        </div>
         <div class="pics">
           <div class="one">
             <img
@@ -95,29 +97,29 @@
           </div>
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f467ba6cf0c4d6d30b0a89e_shape-about-01-influencer-template.svg"
-            alt="" class="shape about-hero-1">
+            alt="" class="shape about-hero-1 hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f467ba62c9b045a7d9065ec_shape-about-02-influencer-template.svg"
-            alt="" class="shape about-hero-2">
+            alt="" class="shape about-hero-2 hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f467ba682910dd65f5596f7_shape-about-03-influencer-template.svg"
-            alt="" class="shape about-hero-3">
+            alt="" class="shape about-hero-3 hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4455633587f042504a44a0_shape-home-hero-06-influencer-template.svg"
-            alt="" class="shape about-hero-4">
+            alt="" class="shape about-hero-4 hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f467ba706628a51060ebbc2_shape-about-05-influencer-template.svg"
-            alt="" class="shape about-hero-5">
+            alt="" class="shape about-hero-5 hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f467ba7ecc6f3ed51857751_shape-about-06-influencer-template.svg"
-            alt="" class="shape about-hero-6">
+            alt="" class="shape about-hero-6 hidden">
         </div>
       </div>
     </section>
     <!-- FOLLOW MY JOURNEY -->
-    <div class="container follow">
+    <div class="container follow hidden">
       <h3>Follow my journey</h3>
-      <div class="links">
+      <div class="links hidden">
         <div>
           <a href="">
             <img src="./img/facebook-follow.svg" alt="" class="facebook">
@@ -193,9 +195,10 @@
 
   <!-- ANALYTICS -->
   <section id="analytics" class="analytics">
-    <h2 class="topic">My Audience Analytics</h2>
-    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit rutrum ut cras natoque proin nunc, lobortis massa. Amet sedphar semper bibendum nisl.</p>
-    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+    <h2 class="topic hidden">My Audience Analytics</h2>
+    <p class="description hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit rutrum ut cras natoque
+      proin nunc, lobortis massa. Amet sedphar semper bibendum nisl.</p>
+    <div class="splide hidden" role="group" aria-label="Splide Basic HTML Example">
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide"></li>
@@ -209,10 +212,21 @@
             </div>
             <hr>
             <div class="grid">
-              <div class="group"><h2>+450K</h2><p>Followers</p></div>
-              <div class="group"><h2>82%</h2><p>females</p></div>
-              <div class="diy group"><i class="fa-solid fa-tags"></i><p>Lifestyle & DIY</p></div>
-              <div class="group"><h2>18-28</h2><p>years old</p></div>
+              <div class="group">
+                <h2>+450K</h2>
+                <p>Followers</p>
+              </div>
+              <div class="group">
+                <h2>82%</h2>
+                <p>female</p>
+              </div>
+              <div class="diy group"><i class="fa-solid fa-tags"></i>
+                <p>Lifestyle & DIY</p>
+              </div>
+              <div class="group">
+                <h2>18-28</h2>
+                <p>years old</p>
+              </div>
             </div>
           </li>
           <li class="splide__slide">
@@ -225,10 +239,21 @@
             </div>
             <hr>
             <div class="grid">
-              <div class="group"><h2>+450K</h2><p>Followers</p></div>
-              <div class="group"><h2>82%</h2><p>females</p></div>
-              <div class="diy group"><i class="fa-solid fa-tags"></i><p>Lifestyle & DIY</p></div>
-              <div class="group"><h2>18-28</h2><p>years old</p></div>
+              <div class="group">
+                <h2>+150K</h2>
+                <p>Followers</p>
+              </div>
+              <div class="group">
+                <h2>82%</h2>
+                <p>female</p>
+              </div>
+              <div class="diy group"><i class="fa-solid fa-tags"></i>
+                <p>Lifestyle & DIY</p>
+              </div>
+              <div class="group">
+                <h2>16-29</h2>
+                <p>years old</p>
+              </div>
             </div>
           </li>
           <li class="splide__slide">
@@ -241,32 +266,44 @@
             </div>
             <hr>
             <div class="grid">
-              <div class="group"><h2>+450K</h2><p>Followers</p></div>
-              <div class="group"><h2>82%</h2><p>females</p></div>
-              <div class="diy group"><i class="fa-solid fa-tags"></i><p>Lifestyle & DIY</p></div>
-              <div class="group"><h2>18-28</h2><p>years old</p></div>
+              <div class="group">
+                <h2>+250K</h2>
+                <p>Followers</p>
+              </div>
+              <div class="group">
+                <h2>82%</h2>
+                <p>female</p>
+              </div>
+              <div class="diy group"><i class="fa-solid fa-tags"></i>
+                <p>Lifestyle & DIY</p>
+              </div>
+              <div class="group">
+                <h2>12-22</h2>
+                <p>years old</p>
+              </div>
             </div>
           </li>
           <li class="splide__slide"></li>
         </ul>
       </div>
     </div>
-    <a class="cta primary">Showreel</a>
+    <a class="cta primary hidden">Showreel</a>
   </section>
 
   <!-- MY SHOWREEL -->
   <section class="showreel" id="showreel">
-    <div class="container">
-      <h2>My Showreel</h2>
-      <p>Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque viverra justo nec.</p>
-      <div class="video">
+      <div class="text hidden">
+        <h2>My Showreel</h2>
+        <p>Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Neque viverra justo nec.</p>
+      </div>
+      <div class="video hidden">
         <div class="inner-video">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template.jpg"
             alt="Instagram Feed - Influencer Webflow Template"
             sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 1919px) 95vw, 1252px"
             srcset="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template-p-500.jpeg 500w, https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template-p-800.jpeg 800w, https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template-p-1600.jpeg 1600w, https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template-p-2000.jpeg 2000w, https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4692d8ef3ca3e0daa35558_image-showreel-influencer-template.jpg 2352w"
-            class="image video">
+            class="image">
           <div class="play-btn">
             <i class="fa-solid fa-play"></i>
           </div>
@@ -284,49 +321,52 @@
           src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4694dddd12646ebeb6687c_shape-showreel-04-influencer-template.svg"
           alt="" class="shape showreel-4">
       </div>
-    </div>
+      <div class="followMe cta primary hidden">
+        Follow Me
+        <i class="fa-solid fa-plus"></i>
+      </div>
   </section>
 
   <!-- SPONSORS -->
   <section class="sponsors">
     <div class="container">
-      <div class="head">
+      <div class="head hidden">
         <h2>My sponsors</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit rutrum ut cras natoque proin nunc.</p>
       </div>
       <div class="companies">
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f469668ed1a3425714c3c3a_logo-sponsor-01-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f46966882e4618505afd35a_logo-sponsor-02-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f4696680b5b298018910bdf_logo-sponsor-03-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f469668e4f775079165fae5_logo-sponsor-04-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f46966929d696872b77f269_logo-sponsor-05-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
-        <div>
+        <div class="hidden">
           <img
             src="https://assets-global.website-files.com/5f442b0a9e95ba3eb1242247/5f46966a9ff9e07ad80af07b_logo-sponsor-06-influencer-template.svg"
             alt="Partners Logo - Influencer Webflow Template">
         </div>
       </div>
-      <a class="cta primary">Contact Me</a>
+      <a class="cta primary hidden">Contact Me</a>
     </div>
   </section>
 
@@ -334,7 +374,7 @@
   <section class="follow-social">
     <div class="container">
       <div class="text hidden">
-        <h2>Follow <span>Me</span> on Social Media</h2>
+        <h2><span>Follow Me</span> on Social Media</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing
           elit. Elit rutrum ut cras natoque proin nunc.
