@@ -866,6 +866,7 @@ section.follow-social .social-links a:nth-child(6) img.show {
     height: 100px;
     font-size: 3.2rem;
   }
+
   /* SPONSORS */
   .sponsors {
     padding: 100px 0;
@@ -921,55 +922,99 @@ section.follow-social .social-links a:nth-child(6) img.show {
     line-height: 1.8;
   }
 
+  h3 {
+    font-size: 18px;
+  }
+
   .cta {
     display: block;
     font-size: 16px;
+    width: 96%;
+    margin: auto;
+    padding: 20px 0;
   }
+
   section.header h1 {
     font-size: 34px;
   }
+
   section.header .pics {
-    height: 550px;
+    height: 500px;
   }
+
   section.header .pics .one {
-    max-width: 67%;
+    width: 265px;
     border-radius: 24px 24px 80px;
     border-bottom-right-radius: 50px;
   }
+
   section.header .pics .two {
-    max-width: 72%;
+    width: 285px;
     border-radius: 24px 24px 80px;
     border-bottom-right-radius: 50px;
   }
+
+  .analytics {
+    padding: 60px 0;
+  }
+
+  .analytics .splide .head {
+    gap: 15px;
+  }
+
+  .analytics li {
+    padding: 30px 40px;
+  }
+
+  .analytics .splide h3 {
+    font-size: 18px;
+  }
+
+  .analytics .splide img {
+    max-width: 60px;
+  }
+
+  .analytics hr {
+    margin: 20px 0;
+  }
+
   .showreel .video .play-btn {
     width: 130px;
     font-size: 3rem;
   }
+
   .more-info .bg-pink.show {
     width: 90%;
   }
+
   .analytics li:first-child {
-    width: 0px;
+    width: 0px !important;
     margin-right: 0px !important;
   }
+
   .analytics a.cta {
     display: block;
+    margin: 50px  auto 0;
   }
+
   .splide__arrow {
     width: 50px;
     height: 50px;
     font-size: 1.2rem;
   }
+
   .sponsors .companies {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .sponsors .companies div {
     width: 100%;
     padding: 30px 10px;
     border-radius: 20px;
     border-bottom-right-radius: 40px;
   }
+
   section.follow-social {
     padding: 60px 0;
   }

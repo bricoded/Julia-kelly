@@ -7,9 +7,9 @@ const splide = new Splide('.splide', {
   speed: 400,
   breakpoints: {
 		479: {
-      gap: '20px',
+      gap: '15px',
       perpage: 1,
-      padding: '0px'
+      padding: '15px'
     }
   },
 });
